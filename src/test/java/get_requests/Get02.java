@@ -1,11 +1,10 @@
 package get_requests;
 
 import io.restassured.response.Response;
-import org.junit.Assert;
 import org.junit.Test;
 
 import static io.restassured.RestAssured.given;
-import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.*;
 
 public class Get02 {
     /*
@@ -44,11 +43,15 @@ public class Get02 {
 
 //        Response body contains "Not Found"
 //        assertTrue() method'u, method parantezi icindeki degerin false olmasi durumunda test "fail" olur
-        Assert.assertTrue(response.asString().contains("Not Found"));
+        assertTrue(response.asString().contains("Not Found"));
 
 //        Response body does not contain "TechProEd"
+//        assertFalse() method'u, method parantezi icindeki degerin true olmasi durumunda test "fail" olur
         assertFalse(response.asString().contains("TechProEd"));
 
-    }
+//        Server is "Cowboy"
+        assertEquals("Cowboy", response.header("Server"));
 
+
+    }
 }
