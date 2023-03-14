@@ -1,9 +1,11 @@
 package get_requests;
 
 import io.restassured.response.Response;
+import org.junit.Assert;
 import org.junit.Test;
 
 import static io.restassured.RestAssured.given;
+import static org.junit.Assert.assertFalse;
 
 public class Get02 {
     /*
@@ -34,7 +36,18 @@ public class Get02 {
         Response response = given().when().get(url);
         response.prettyPrint();
 
+//        Do Assertion
+        response.
+                then().
+                statusCode(404).// HTTP Status code should be 404
+                statusLine("HTTP/1.1 404 Not Found");// Status Line should be HTTP/1.1 404 Not Found
 
+//        Response body contains "Not Found"
+//        assertTrue() method'u, method parantezi icindeki degerin false olmasi durumunda test "fail" olur
+        Assert.assertTrue(response.asString().contains("Not Found"));
+
+//        Response body does not contain "TechProEd"
+        assertFalse(response.asString().contains("TechProEd"));
 
     }
 
