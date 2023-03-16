@@ -65,24 +65,28 @@ public class Get06 extends HerOkuAppBaseUrl {
 //        2nd Path: with JsonPath
         JsonPath jsonPath = response.jsonPath();
 
-        assertEquals("Josh", jsonPath.getString("firstname"));
-        assertEquals("Allen", jsonPath.getString("lastname"));
-        assertEquals(111, jsonPath.getInt("totalprice"));
-        assertTrue(jsonPath.getBoolean("depositpaid"));
-        assertEquals("2018-01-01", jsonPath.getString("bookingdates.checkin"));
-        assertEquals("2019-01-01", jsonPath.getString("bookingdates.checkout"));
-        assertEquals("midnight snack", jsonPath.getString("additionalneeds"));
+//        assertEquals("Jane", jsonPath.getString("firstname"));
+//        assertEquals("Doe", jsonPath.getString("lastname"));
+//        assertEquals(111, jsonPath.getInt("totalprice"));
+//        assertTrue(jsonPath.getBoolean("depositpaid"));
+//        assertEquals("2018-01-01", jsonPath.getString("bookingdates.checkin"));
+//        assertEquals("2019-01-01", jsonPath.getString("bookingdates.checkout"));
+//        assertEquals("Extra pillows please", jsonPath.getString("additionalneeds"));
 
 //        3rd Path: TestNG Soft Assert
 //        1) SoftAssert objesi olustur.
         SoftAssert softAssert = new SoftAssert();
 
 //        2) Assertion
-        softAssert.assertAll();
+        softAssert.assertEquals(jsonPath.getString("firstname"), "Jane", "firstname uyusmadi");
+        softAssert.assertEquals(jsonPath.getString("lastname"), "Doe", "lastname uyusmadi");
+        softAssert.assertEquals(jsonPath.getInt("totalprice"), 111, "totalprice uyusmadi");
+        softAssert.assertTrue(jsonPath.getBoolean("depositpaid"), "depositpaid uyusmadi");
+        softAssert.assertEquals(jsonPath.getString("bookingdates.checkin"), "2018-01-01", "checkin uyusmadi");
+        softAssert.assertEquals(jsonPath.getString("additionalneeds"), "Extra pillows please", "checkout uyusmadi");
 
 //        3) softAssert.assertAll() diyerek dogrulamayi kontrol et. Aksi takdirde test hep "PASSED" olur!!
-
-
+        softAssert.assertAll();
 
     }
 }

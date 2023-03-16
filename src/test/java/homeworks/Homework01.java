@@ -1,6 +1,13 @@
 package homeworks;
 
-public class Homework01 {
+import base_urls.HerOkuAppBaseUrl;
+import io.restassured.response.Response;
+import org.junit.Test;
+
+import static io.restassured.RestAssured.given;
+import static org.junit.Assert.assertTrue;
+
+public class Homework01 extends HerOkuAppBaseUrl {
     /*
     1)
         Given
@@ -11,7 +18,26 @@ public class Homework01 {
             Status code is 200
 	  	And
 	  		Among the data there should be someone whose firstname is "Almedin" and lastname is "Alikadic"
+*/
+    @Test
+    public void homework01() {
+//    i)       Set the URL
+        spec.pathParam("first", "booking").
+                queryParams("firstname", "Almedin",
+                        "lastname", "Alikadic");
 
+//    ii)      Set the expected data
+
+//    iii)     Send the request and get the response
+        Response response = given().spec(spec).when().get("/{first}");
+        response.prettyPrint();
+
+//    iv)     Do Assertion
+        response.then().statusCode(200);
+        assertTrue(response.asString().contains("bookingid"));
+
+    }
+    /*
      2)
         Given
           https://reqres.in/api/unknown/3
