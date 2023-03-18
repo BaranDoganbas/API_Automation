@@ -9,5 +9,8 @@
         <module name="B103_API" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="B103_API" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
