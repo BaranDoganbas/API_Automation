@@ -5,8 +5,6 @@ import io.restassured.response.Response;
 import org.junit.Test;
 import pojos.JsonPlaceHolderPojo;
 
-import java.util.HashMap;
-
 import static io.restassured.RestAssured.given;
 import static org.junit.Assert.assertEquals;
 
