@@ -5,20 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a545ccc-13c9-4126-966c-9301e371f689" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/get_requests/Get12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/get_requests/Get13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/BookingDatesPojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/BookingPojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/BookingResponsePojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/GoRestDataPojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/GoRestPojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/post_requests/Post04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/post_requests/Post05ObjectMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/post_requests/Post05ObjectMapper_Pojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/util/ObjectMapperUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/B103_API.iml" beforeDir="false" afterPath="$PROJECT_DIR$/B103_API.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/post_requests/Post03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/post_requests/Post03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/post_requests/Post03.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/post_requests/Post03.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pojos/JsonPlaceHolderPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pojos/JsonPlaceHolderPojo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/post_requests/Post05ObjectMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/post_requests/Post05ObjectMapper_Map.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +53,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Color Scheme Font&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.Post05ObjectMapper">
+  <component name="RunManager" selected="JUnit.Post05ObjectMapper_Pojo.post05">
     <configuration name="Get12.get12" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B103_API" />
       <extension name="coverage">
@@ -94,7 +86,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Post04.post04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Post05ObjectMapper_Map" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B103_API" />
       <extension name="coverage">
         <pattern>
@@ -103,29 +95,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="post_requests" />
-      <option name="MAIN_CLASS_NAME" value="post_requests.Post04" />
-      <option name="METHOD_NAME" value="post04" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Post05ObjectMapper" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B103_API" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="post_requests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="post_requests" />
-      <option name="MAIN_CLASS_NAME" value="post_requests.Post05ObjectMapper" />
+      <option name="MAIN_CLASS_NAME" value="post_requests.Post05ObjectMapper_Map" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Post05ObjectMapper.post05ObjectMapper" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Post05ObjectMapper_Map.post05ObjectMapper" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B103_API" />
       <extension name="coverage">
         <pattern>
@@ -134,8 +110,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="post_requests" />
-      <option name="MAIN_CLASS_NAME" value="post_requests.Post05ObjectMapper" />
+      <option name="MAIN_CLASS_NAME" value="post_requests.Post05ObjectMapper_Map" />
       <option name="METHOD_NAME" value="post05ObjectMapper" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Post05ObjectMapper_Pojo.post05" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B103_API" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="post_requests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="post_requests" />
+      <option name="MAIN_CLASS_NAME" value="post_requests.Post05ObjectMapper_Pojo" />
+      <option name="METHOD_NAME" value="post05" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -143,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Post05ObjectMapper" />
-        <item itemvalue="JUnit.Post05ObjectMapper.post05ObjectMapper" />
+        <item itemvalue="JUnit.Post05ObjectMapper_Pojo.post05" />
+        <item itemvalue="JUnit.Post05ObjectMapper_Map" />
+        <item itemvalue="JUnit.Post05ObjectMapper_Map.post05ObjectMapper" />
         <item itemvalue="JUnit.Get13.get13" />
         <item itemvalue="JUnit.Get12.get12" />
-        <item itemvalue="JUnit.Post04.post04" />
       </list>
     </recent_temporary>
   </component>
