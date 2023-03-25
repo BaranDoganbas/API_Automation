@@ -1,28 +1,26 @@
 package pojos;
 
-
-import org.codehaus.jackson.annotate.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class BookingResponsePojo {
-
-    private Integer bookingId;
+    private Integer bookingid;
     private BookingPojo booking;
 
     public BookingResponsePojo() {
     }
 
-    public BookingResponsePojo(Integer bookingId, BookingPojo booking) {
-        this.bookingId = bookingId;
+    public BookingResponsePojo(Integer bookingid, BookingPojo booking) {
+        this.bookingid = bookingid;
         this.booking = booking;
     }
 
-    public Integer getBookingId() {
-        return bookingId;
+    public Integer getBookingid() {
+        return bookingid;
     }
 
-    public void setBookingId(Integer bookingId) {
-        this.bookingId = bookingId;
+    public void setBookingid(Integer bookingid) {
+        this.bookingid = bookingid;
     }
 
     public BookingPojo getBooking() {
@@ -36,7 +34,7 @@ public class BookingResponsePojo {
     @Override
     public String toString() {
         return "BookingResponsePojo{" +
-                "bookingId=" + bookingId +
+                "bookingid=" + bookingid +
                 ", booking=" + booking +
                 '}';
     }

@@ -41,7 +41,7 @@ public class Put01 extends JsonPlaceHolderBaseUrl {
 
         //Set the expected data
         Map<String, Object> expectedData = new HashMap<>();
-        expectedData.put("userId", 21.0);
+        expectedData.put("userId", 21);
         expectedData.put("title", "Wash the dishes");
         expectedData.put("completed", false);
 

@@ -5,11 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a545ccc-13c9-4126-966c-9301e371f689" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/delete_requests/Delete01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/delete_requests/Delete02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/DummyRestApiDeleteBodyPojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/post_requests/Post06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/base_urls/GmiBankBaseUrl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank/GetCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank/pojos/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank/pojos/Country.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank/pojos/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank/pojos/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/herokuapp_smoketest/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/herokuapp_smoketest/S04_Get.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/herokuapp_smoketest/S01_Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/herokuapp_smoketest/S01_Post.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pojos/BookingDatesPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pojos/BookingDatesPojo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pojos/BookingResponsePojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pojos/BookingResponsePojo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/put_requests/Put01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/put_requests/Put01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pojos/BookingDatesPojo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pojos/BookingDatesPojo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pojos/BookingResponsePojo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pojos/BookingResponsePojo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/put_requests/Put01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/put_requests/Put01.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,55 +63,55 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Color Scheme Font&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.Post06.post06">
-    <configuration name="Post06.post06" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.GetCustomer.gmiBankCustomer">
+    <configuration name="Delete01.delete01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B103_API" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="post_requests.*" />
+          <option name="PATTERN" value="delete_requests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="post_requests" />
-      <option name="MAIN_CLASS_NAME" value="post_requests.Post06" />
-      <option name="METHOD_NAME" value="post06" />
+      <option name="PACKAGE_NAME" value="delete_requests" />
+      <option name="MAIN_CLASS_NAME" value="delete_requests.Delete01" />
+      <option name="METHOD_NAME" value="delete01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="S01_Post" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GetCustomer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B103_API" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="herokuapp_smoketest.*" />
+          <option name="PATTERN" value="gmibank.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="herokuapp_smoketest" />
-      <option name="MAIN_CLASS_NAME" value="herokuapp_smoketest.S01_Post" />
+      <option name="PACKAGE_NAME" value="gmibank" />
+      <option name="MAIN_CLASS_NAME" value="gmibank.GetCustomer" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="S01_Post.post01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GetCustomer.gmiBankCustomer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B103_API" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="herokuapp_smoketest.*" />
+          <option name="PATTERN" value="gmibank.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="herokuapp_smoketest" />
-      <option name="MAIN_CLASS_NAME" value="herokuapp_smoketest.S01_Post" />
-      <option name="METHOD_NAME" value="post01" />
+      <option name="PACKAGE_NAME" value="gmibank" />
+      <option name="MAIN_CLASS_NAME" value="gmibank.GetCustomer" />
+      <option name="METHOD_NAME" value="gmiBankCustomer" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="S02_Put" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="S03_Delete.delete01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B103_API" />
       <extension name="coverage">
         <pattern>
@@ -109,13 +120,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="herokuapp_smoketest" />
-      <option name="MAIN_CLASS_NAME" value="herokuapp_smoketest.S02_Put" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="herokuapp_smoketest.S03_Delete" />
+      <option name="METHOD_NAME" value="delete01" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="S02_Put.put01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="S04_Get.get01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B103_API" />
       <extension name="coverage">
         <pattern>
@@ -124,8 +136,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="herokuapp_smoketest" />
-      <option name="MAIN_CLASS_NAME" value="herokuapp_smoketest.S02_Put" />
-      <option name="METHOD_NAME" value="put01" />
+      <option name="MAIN_CLASS_NAME" value="herokuapp_smoketest.S04_Get" />
+      <option name="METHOD_NAME" value="get01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -133,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Post06.post06" />
-        <item itemvalue="JUnit.S01_Post.post01" />
-        <item itemvalue="JUnit.S02_Put.put01" />
-        <item itemvalue="JUnit.S02_Put" />
-        <item itemvalue="JUnit.S01_Post" />
+        <item itemvalue="JUnit.GetCustomer.gmiBankCustomer" />
+        <item itemvalue="JUnit.GetCustomer" />
+        <item itemvalue="JUnit.S04_Get.get01" />
+        <item itemvalue="JUnit.Delete01.delete01" />
+        <item itemvalue="JUnit.S03_Delete.delete01" />
       </list>
     </recent_temporary>
   </component>

@@ -47,7 +47,7 @@ public class S01_Post extends HerOkuAppBaseUrl {
            }
        }
     */
-    static int bookingId;
+    static int bookingId; //Oluşturulan bookingId'yi sonraki classlarda kullanılmak üzere bir containera alıyoruz
 
     @Test
     public void post01() {
@@ -78,7 +78,7 @@ public class S01_Post extends HerOkuAppBaseUrl {
 
         assertEquals(expectedData.getAdditionalneeds(), actualData.getBooking().getAdditionalneeds());
 
-        bookingId = actualData.getBookingId();
+        bookingId = actualData.getBookingid();//Oluşturulan bookingId'yi sonraki classlarda kullanılmak üzere bir containera alıyoruz
 
     }
 }
