@@ -5,20 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a545ccc-13c9-4126-966c-9301e371f689" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/herokuapp_smoketest/S01_Post.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/herokuapp_smoketest/S02_Put.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/herokuapp_smoketest/S03_Delete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/util/AuthenticationHerOkuApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/delete_requests/Delete01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/delete_requests/Delete02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/DummyRestApiDeleteBodyPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/post_requests/Post06.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base_urls/HerOkuAppBaseUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base_urls/HerOkuAppBaseUrl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pojos/BookingDatesPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pojos/BookingDatesPojo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pojos/BookingPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pojos/BookingPojo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pojos/BookingResponsePojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pojos/BookingResponsePojo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/util/ObjectMapperUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/util/ObjectMapperUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/base_urls/HerOkuAppBaseUrl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base_urls/HerOkuAppBaseUrl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pojos/BookingDatesPojo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pojos/BookingDatesPojo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pojos/BookingPojo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pojos/BookingPojo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pojos/BookingResponsePojo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pojos/BookingResponsePojo.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,18 +52,18 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Color Scheme Font&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.S01_Post.post01">
-    <configuration name="Put02.put02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Post06.post06">
+    <configuration name="Post06.post06" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B103_API" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="put_requests.*" />
+          <option name="PATTERN" value="post_requests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="put_requests" />
-      <option name="MAIN_CLASS_NAME" value="put_requests.Put02" />
-      <option name="METHOD_NAME" value="put02" />
+      <option name="PACKAGE_NAME" value="post_requests" />
+      <option name="MAIN_CLASS_NAME" value="post_requests.Post06" />
+      <option name="METHOD_NAME" value="post06" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -142,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Post06.post06" />
         <item itemvalue="JUnit.S01_Post.post01" />
         <item itemvalue="JUnit.S02_Put.put01" />
         <item itemvalue="JUnit.S02_Put" />
         <item itemvalue="JUnit.S01_Post" />
-        <item itemvalue="JUnit.Put02.put02" />
       </list>
     </recent_temporary>
   </component>
