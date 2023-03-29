@@ -2,28 +2,20 @@ package gmibank.pojos;
 
 import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 
+import java.util.List;
+
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Country {
 
-    private int id;
     private String name;
-    private Object states;
+    private List<States> states;
 
     public Country() {
     }
 
-    public Country(int id, String name, Object states) {
-        this.id = id;
+    public Country(String name, List<States> states) {
         this.name = name;
         this.states = states;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     public String getName() {
@@ -34,19 +26,18 @@ public class Country {
         this.name = name;
     }
 
-    public Object getStates() {
+    public List<States> getStates() {
         return states;
     }
 
-    public void setStates(Object states) {
+    public void setStates(List<States> states) {
         this.states = states;
     }
 
     @Override
     public String toString() {
         return "Country{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
+                "name='" + name + '\'' +
                 ", states=" + states +
                 '}';
     }

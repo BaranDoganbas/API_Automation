@@ -20,13 +20,5 @@ public class AuthenticationGmiBank {
         Response response = given().contentType(ContentType.JSON).body(postBody).post("https://gmibank.com/api/authenticate");
 
         return response.jsonPath().getString("id_token");
-
     }
-    /*
-    {
-  "password": "Batch.103",
-  "rememberMe": true,
-  "username": "batch_yuzuc"
-}
-     */
 }
