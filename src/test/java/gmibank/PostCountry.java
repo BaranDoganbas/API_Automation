@@ -5,11 +5,13 @@ import gmibank.pojos.Country;
 import gmibank.pojos.States;
 import io.restassured.response.Response;
 import org.junit.Test;
+import util.ObjectMapperUtils;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import static io.restassured.RestAssured.given;
+import static org.junit.Assert.assertEquals;
 
 public class PostCountry extends GmiBankBaseUrl {
 
@@ -85,7 +87,16 @@ public class PostCountry extends GmiBankBaseUrl {
         response.prettyPrint();
 
 //        Do Assertion
+        Country actualData = ObjectMapperUtils.convertJsonToJava(response.asString(), Country.class);
+        System.out.println(actualData);
 
+        assertEquals(expectedData.getName(), actualData.getName());
+        assertEquals(state1.getName(), actualData.getStates().get(0).getName());
+        assertEquals(state1.getId(), actualData.getStates().get(0).getId());
+        assertEquals(state2.getName(), actualData.getStates().get(1).getName());
+        assertEquals(state2.getId(), actualData.getStates().get(1).getId());
+        assertEquals(state3.getName(), actualData.getStates().get(2).getName());
+        assertEquals(state3.getId(), actualData.getStates().get(2).getId());
 
     }
 }

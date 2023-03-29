@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a545ccc-13c9-4126-966c-9301e371f689" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank/PostCountry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank/pojos/States.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gmibank/GetCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gmibank/GetCustomer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gmibank/pojos/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gmibank/pojos/Country.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/util/AuthenticationGmiBank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/util/AuthenticationGmiBank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/gmibank/GetCustomer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/gmibank/GetCustomer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gmibank/PostCountry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gmibank/PostCountry.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
