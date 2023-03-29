@@ -1,5 +1,8 @@
 package gmibank.pojos;
 
+import org.codehaus.jackson.annotate.JsonIgnoreProperties;
+
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class User {
     private int id;
     private String login;

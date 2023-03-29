@@ -5,22 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a545ccc-13c9-4126-966c-9301e371f689" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/base_urls/GmiBankBaseUrl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank/GetCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank/pojos/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank/pojos/Country.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank/pojos/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank/pojos/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/herokuapp_smoketest/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/herokuapp_smoketest/S04_Get.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/herokuapp_smoketest/S01_Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/herokuapp_smoketest/S01_Post.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pojos/BookingDatesPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pojos/BookingDatesPojo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pojos/BookingResponsePojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pojos/BookingResponsePojo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/put_requests/Put01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/put_requests/Put01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pojos/BookingDatesPojo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pojos/BookingDatesPojo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pojos/BookingResponsePojo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pojos/BookingResponsePojo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/put_requests/Put01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/put_requests/Put01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gmibank/pojos/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gmibank/pojos/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gmibank/pojos/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gmibank/pojos/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
